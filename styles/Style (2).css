@@ -125,6 +125,14 @@ a:hover {
     }
 }
 
+.paragraph-light {
+    color: #0013f8;
+}
+
+.heading-jumbo {
+    color: #0014ff;
+}
+
 @media screen and (max-width: 767px) {
     .back {
         width: auto;
@@ -204,4 +212,31 @@ a:hover {
     }
 }
 
-* {}
+@media screen and (max-height: 600px) {
+    .back {
+        width: auto;
+        height: 121vh;
+        background-image: url(../assets/background.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+    .back-img {
+        width: auto;
+        height: 100vh;
+        /* padding-bottom: 190px; */
+        padding-top: 72px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    .first-home {
+        margin-left: 10%;
+    }
+    .the-img {
+        width: 229px;
+        position: relative;
+        bottom: 271px;
+        margin-left: 65%;
+    }
+}
